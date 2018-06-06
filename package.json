@@ -1,0 +1,28 @@
+{
+  "name": "crypto-calculator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.2",
+    "node-sass-chokidar": "^1.3.0",
+    "react": "^16.4.0",
+    "react-chartjs-2": "^2.7.2",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4",
+    "react-websocket": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/App.scss -o src",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules --watch src/App.scss src/App.css",
+    "deploy": "npm run build && firebase deploy",
+    "firebase-init": "firebase login && firebase init"
+  },
+  "devDependencies": {
+    "firebase-tools": "^3.18.6"
+  }
+}
