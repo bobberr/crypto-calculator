@@ -28,7 +28,6 @@ class CurrencyList extends React.Component {
         </li>
       );
     });
-    console.log(this.state);
     return (
       <div className="currency-list">
         <select

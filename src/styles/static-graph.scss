@@ -1,0 +1,15 @@
+.static-graph {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  &__select {
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    width: 200px;
+  }
+}

@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "chart.js": "^2.7.2",
+    "date-fns": "^1.29.0",
     "node-sass-chokidar": "^1.3.0",
     "react": "^16.4.0",
     "react-chartjs-2": "^2.7.2",
@@ -23,6 +24,7 @@
     "firebase-init": "firebase login && firebase init"
   },
   "devDependencies": {
-    "firebase-tools": "^3.18.6"
+    "firebase-tools": "^3.18.6",
+    "lodash": "^4.17.10"
   }
 }
